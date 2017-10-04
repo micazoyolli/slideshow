@@ -28,6 +28,8 @@ var m = {
   init: function() { // Init function
     for (var i = 0; i < p.pagination.length; i++) {
       p.pagination[i].addEventListener('click', m.paginationSlide);
+
+      // Dinamic width
       p.imgSlide[i].style.width = (100 / p.pagination.length) + '%';
     }
 

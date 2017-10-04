@@ -4,16 +4,15 @@ Slideshow con texto personalizable adaptable a todos los dispositivos.
 ![Slideshow Responsive](https://github.com/micazoyolli/slideshow/blob/master/img/screenshot.png)
 
 ## Demo
----
 [Calculadora JS Demo](https://micazoyolli.github.io/slideshow/)
 
 ## Setup
----
-# Descarga de GitHub
+
+### Descarga de GitHub
 
 Descarga directamente el plugin directo [aquí](https://github.com/micazoyolli/slideshow/archive/master.zip)
 
-# Incluye archivos CSS y JS
+### Incluye archivos CSS y JS
 
 Primero que nada agrega main.css entre las etiquetas `<head>` de tu documento.
 
@@ -32,7 +31,7 @@ Después incluye `main.js` en tu documento.
 </body>
 ```
 
-# Markup
+### Markup
 
 Agrega el siguiente snippet de HTML al cuerpo de su página web.
 
@@ -75,7 +74,7 @@ Agrega el siguiente snippet de HTML al cuerpo de su página web.
 
 El número de `<li>` dentro de los `<ul>` debe corresponder al mismo que se encuentre en la paginación.
 
-# Animation
+### Animation
 
 Slideshow puede tener dos tipos de animación (slide y fade) el cual podrá configurarse directamente en el `main.js` con solo cambiar la propiedad `animation`.
 
